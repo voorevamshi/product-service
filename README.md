@@ -2,7 +2,7 @@
 
 A **Spring Boot 4** microservice that exposes a secure REST API for product catalog data.
 It acts as an **OAuth 2.0 Resource Server** — every request must carry a valid JWT token
-issued by an external Authorization Server (e.g. Keycloak). No token = no access.
+issued by an external Authorization Server (e.g. [Keycloak Identity Provider](https://github.com/voorevamshi/Kubernetes/blob/main/workloads/deployments%20/KEYCLOAK_SETUP.md)). No token = no access.
 
 ---
 
