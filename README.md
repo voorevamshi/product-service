@@ -15,6 +15,7 @@ issued by an external Authorization Server (e.g. [Keycloak Identity Provider](ht
 | [⚙️ Configuration](docs/configuration.md) | `application.yml` and Actuator endpoints explained |
 | [🌐 API Reference](docs/api-reference.md) | REST endpoints, request/response examples, error codes |
 | [🔮 Roadmap](docs/roadmap.md) | Suggested improvements and next steps |
+| [❓ FAQ](docs/faq.md) | Security Q&A — stolen credentials, Bearer Token, JWT vs OAuth2, resource-server vs client |
 
 ---
 
@@ -93,7 +94,8 @@ product-service/
 │   ├── files-explained.md
 │   ├── configuration.md
 │   ├── api-reference.md
-│   └── roadmap.md
+│   ├── roadmap.md
+│   └── faq.md                             ← ❓ Security Q&A
 │
 └── src/main/
     ├── resources/
